@@ -1,4 +1,4 @@
-# Digital Clock Application
+# Digital And Analog Clock Application
 
 In this JavaScript application I created a simple digital analog clock that displays the current time in real-time. It utilizes JavaScript's `setInterval()` function to update the clock every second, ensuring accurate time display.
 
@@ -38,5 +38,15 @@ To run the analog clock application:
 
    ```bash
    cd digital_clock
+   ## Analog Clock
+
+To run the analog clock application:
+
+2. **Navigate to the `digital_clock` folder:**
+
+   ```bash
+   cd digital_clock
+   To run digital clock application
+   
 
 
