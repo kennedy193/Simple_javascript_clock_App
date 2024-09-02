@@ -22,14 +22,14 @@ To get started with the project, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone <(https://github.com/kennedy193/Simple_javascript_clock_App.git)>
+   git clone (https://github.com/kennedy193/Simple_javascript_clock_App.git)
 
 
 ## Analog Clock
 
 To run the analog clock application:
 
-1. **Navigate to the `analog_clock` folder:**
+1. **Navigate to the `analog_clock_app` folder:**
 
    ```bash
    cd analog_clock
@@ -42,7 +42,7 @@ To run the analog clock application:
 
 To run the analog clock application:
 
-2. **Navigate to the `digital_clock` folder:**
+2. **Navigate to the `digital_clock_app` folder:**
 
    ```bash
    cd digital_clock
