@@ -1,0 +1,86 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #091921;
+}
+.clock{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #fff;
+    border:2px solid black;
+    position: relative;
+/*background: url(clock.png);*/
+}
+.hour-hand,.minute-hand,.seconds-hand{
+position: absolute;
+left: 50%;
+bottom: 50%;
+transform-origin: bottom center;
+background-color: rgb(69, 184, 104);
+}
+.hour-hand{
+    width: 10px;
+    height: 70px;
+}
+.minute-hand{
+    width: 8px;
+    height: 100px;
+}
+.seconds-hand{
+    width: 4px;
+    height: 119px;
+}
+.point-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+}
+.clock-nums{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+}
+.clock-nums span{
+    position: absolute;
+}
+.clock-nums span:nth-child(1) {
+    top: 10px;
+}
+
+.clock-nums span:nth-child(2) {
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.clock-nums span:nth-child(3) {
+    bottom: 10px;
+}
+
+.clock-nums span:nth-child(4) {
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
