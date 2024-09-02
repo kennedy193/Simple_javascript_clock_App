@@ -29,7 +29,7 @@ To get started with the project, follow these steps:
 
 To run the analog clock application:
 
-1. **Navigate to the `analog_clock_app` folder:**
+1.**Navigate to the `analog_clock_app` folder:**
 
    ```bash
    cd analog_clock
