@@ -29,12 +29,12 @@ To get started with the project, follow these steps:
 
 To run the analog clock application:
 
-1.**Navigate to the `analog_clock_app` folder:**
+>**Navigate to the `analog_clock_app` folder:**
 
    ```bash
    cd analog_clock
    To run digital clock application
-   2.**Navigate to the `digital_clock` folder:**
+   >**Navigate to the `digital_clock` folder:**
 
    ```bash
    cd digital_clock
